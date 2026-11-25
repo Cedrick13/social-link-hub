@@ -8,6 +8,7 @@
     --text-secondary: #94a3b8;
 }
 
+/* Fixed the universal selector from '-' to '*' */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,6 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
 }
 
 .app-container {
@@ -209,4 +211,19 @@ body {
 
 .nav-item.active {
     color: #38bdf8;
+}
+
+/* Mobile Responsiveness for Real Phones */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: var(--bg-dark);
+        align-items: flex-start;
+    }
+    .app-container {
+        height: 100vh;
+        max-width: 100%;
+        border-radius: 0;
+        border: none;
+        box-shadow: none;
+    }
 }
