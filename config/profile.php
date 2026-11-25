@@ -1,15 +1,15 @@
 <?php
 return [
-    'name' => 'Your Name',
-    'tagline' => 'Designer | Dropshipper | Vlogger',
-    'avatar' => '/public/images/dp.png',
-    'about_heading' => 'HELLO EVERYONE!',
-    'about_text' => 'I am Your Name, a content creator focused on travel and lifestyle. Through this platform, I share exciting moments, tips, and favorite recommendations. Let’s connect!',
-    'portfolio' => [
-        'title' => 'My Portfolio',
-        'url' => 'https://ced-portfolio.vercel.app/#about',
-        'display_url' => 'ced-portfolio.vercel.app/#about'
-    ],
+    'name' => 'Cedrick Embestro',
+'tagline' => 'IT Support Specialist | Web Developer',
+'avatar' => '/public/images/dp.png',
+'about_heading' => "HEY, I'M CED! 👋",
+'about_text' => 'An IT Support Specialist with a passion for UI/UX design and web development. I enjoy troubleshooting technical issues, exploring new technologies, designing user-friendly interfaces, and building creative web experiences. Always learning, always creating, always growing. 🚀',
+'portfolio' => [
+    'title' => 'My Portfolio',
+    'url' => 'https://ced-portfolio.vercel.app/#about',
+    'display_url' => 'ced-portfolio.vercel.app/#about'
+],
     'socials' => [
         [
             'platform' => 'Facebook',
