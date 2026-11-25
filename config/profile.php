@@ -14,21 +14,21 @@ return [
         [
             'platform' => 'Facebook',
             'subtitle' => 'Facebook Profile',
-            'url' => 'https://facebook.com/',
+            'url' => 'https://www.facebook.com/Loyal.Wew/',
             'icon' => 'fa-brands fa-facebook-f',
             'color' => '#1877F2'
         ],
         [
             'platform' => 'Instagram',
             'subtitle' => '@Photos & Updates',
-            'url' => 'https://instagram.com/',
+            'url' => 'https://www.instagram.com/cedcllp/',
             'icon' => 'fa-brands fa-instagram',
             'color' => '#E4405F'
         ],
         [
             'platform' => 'TikTok Video',
             'subtitle' => 'Short Videos',
-            'url' => 'https://tiktok.com/',
+            'url' => 'https://www.tiktok.com/@itsced86',
             'icon' => 'fa-brands fa-tiktok',
             'color' => '#000000'
         ],
@@ -40,23 +40,23 @@ return [
             'color' => '#26A5E4'
         ],
         [
-            'platform' => 'Pinterest',
-            'subtitle' => 'Visual Inspiration',
-            'url' => 'https://pinterest.com/',
-            'icon' => 'fa-brands fa-pinterest-p',
-            'color' => '#E60023'
+            'platform' => 'Threads',
+            'subtitle' => 'Thoughts & Moments',
+            'url' => 'https://www.threads.com/@cedcllp',
+            'icon' => 'fa-brands fa-threads',
+            'color' => '#000000'
         ],
         [
-            'platform' => 'YouTube',
-            'subtitle' => 'Vlog & Video',
-            'url' => 'https://youtube.com/',
-            'icon' => 'fa-brands fa-youtube',
-            'color' => '#FF0000'
+            'platform' => 'Discord',
+            'subtitle' => 'Chats & Community',
+            'url' => 'https://discord.com/users/750605991015481385',
+            'icon' => 'fa-brands fa-discord',
+            'color' => '#5865F2'
         ],
         [
             'platform' => 'X',
             'subtitle' => 'Opinions & Updates',
-            'url' => 'https://x.com/',
+            'url' => 'https://twitter.com/Just_Ced4',
             'icon' => 'fa-brands fa-x-twitter',
             'color' => '#0F1419'
         ]
