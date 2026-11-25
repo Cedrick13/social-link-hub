@@ -14,22 +14,11 @@
 </nav>
 
 <script>
-
 function switchTab(tabId, element) {
-    document.querySelectorAll('.tab-view').forEach(tab => {
-        tab.classList.remove('active');
-    });
-
-    document.querySelectorAll('.nav-item').forEach(nav => {
-        nav.classList.remove('active');
-    });
-
-    const selectedTab = document.getElementById('view-' + tabId);
-
-    if (selectedTab) {
-        selectedTab.classList.add('active');
-        element.classList.add('active');
-    }
+    document.querySelectorAll('.tab-view').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.nav-item').forEach(el => el.classList.remove('active'));
+    
+    document.getElementById('view-' + tabId).classList.add('active');
+    element.classList.add('active');
 }
-
 </script>
