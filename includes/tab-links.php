@@ -1,7 +1,7 @@
 <?php foreach ($data['socials'] as $social): ?>
-<a href="<?= htmlspecialchars($social['url']) ?>" target="_blank" class="glass-card link-button">
+<a href="<?= htmlspecialchars($social['url']) ?>" target="_blank" rel="noopener noreferrer" class="glass-card link-button">
     <div class="link-content">
-        <i class="<?= $social['icon'] ?>"></i>
+        <i class="<?= htmlspecialchars($social['icon']) ?>" style="font-size: 20px; width: 24px; text-align: center; color: <?= htmlspecialchars($social['color'] ?? '#38bdf8') ?>;"></i>
         <div class="link-text">
             <h3><?= htmlspecialchars($social['platform']) ?></h3>
             <span><?= htmlspecialchars($social['subtitle']) ?></span>
