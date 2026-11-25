@@ -2,6 +2,13 @@
 $data = require __DIR__ . '/../config/profile.php';
 $basePath = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
 $basePath = preg_replace('#/api$#', '', $basePath);
+
+// Convert favicon to Base64 so it never breaks on Vercel
+$faviconPath = __DIR__ . '/../public/images/icon.png';
+$faviconData = '';
+if (file_exists($faviconPath)) {
+    $faviconData = 'data:image/png;base64,' . base64_encode(file_get_contents($faviconPath));
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,7 +17,9 @@ $basePath = preg_replace('#/api$#', '', $basePath);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio Link - <?= htmlspecialchars($data['name']) ?></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" type="image/png" href="<?= $basePath ?>/public/images/icon.png">
+    <?php if ($faviconData): ?>
+    <link rel="icon" type="image/png" href="<?= $faviconData ?>">
+    <?php endif; ?>
     <style>
         <?php 
         $cssFile = __DIR__ . '/../public/css/style.css';

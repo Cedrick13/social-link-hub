@@ -1,7 +1,19 @@
-
+<?php
+// Convert avatar image to Base64 so it displays instantly on Vercel
+$avatarRelPath = ltrim($data['avatar'], '/');
+$avatarFullPath = __DIR__ . '/../' . $avatarRelPath;
+$avatarData = '';
+if (file_exists($avatarFullPath)) {
+    $avatarData = 'data:image/png;base64,' . base64_encode(file_get_contents($avatarFullPath));
+}
+?>
 <div class="profile-header">
     <div class="avatar-wrapper">
-        <img src="<?= $basePath ?>/<?= ltrim($data['avatar'], '/') ?>" alt="Profile Picture">
+        <?php if ($avatarData): ?>
+            <img src="<?= $avatarData ?>" alt="Profile Picture">
+        <?php else: ?>
+            <img src="<?= $basePath ?>/<?= $avatarRelPath ?>" alt="Profile Picture">
+        <?php endif; ?>
     </div>
     <h1><?= htmlspecialchars($data['name']) ?></h1>
     <p><?= htmlspecialchars($data['tagline']) ?></p>
