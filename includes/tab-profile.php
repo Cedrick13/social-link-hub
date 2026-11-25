@@ -1,16 +1,10 @@
 
 <div class="profile-header">
-
     <div class="avatar-wrapper">
-        <img
-            src="<?= htmlspecialchars($data['avatar']) ?>"
-            alt="Profile Picture"
-        >
+        <img src="<?= $basePath ?>/<?= ltrim($data['avatar'], '/') ?>" alt="Profile Picture">
     </div>
-
     <h1><?= htmlspecialchars($data['name']) ?></h1>
     <p><?= htmlspecialchars($data['tagline']) ?></p>
-
 </div>
 
 <div class="section-title">About Me</div>
