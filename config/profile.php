@@ -2,7 +2,7 @@
 return [
     'name' => 'Your Name',
     'tagline' => 'Designer | Dropshipper | Vlogger',
-    'avatar' => '/public/images/pic.',
+    'avatar' => '/public/images/dp.png',
     'about_heading' => 'HELLO EVERYONE!',
     'about_text' => 'I am Your Name, a content creator focused on travel and lifestyle. Through this platform, I share exciting moments, tips, and favorite recommendations. Let’s connect!',
     'portfolio' => [
