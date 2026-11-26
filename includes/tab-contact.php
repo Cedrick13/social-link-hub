@@ -21,7 +21,7 @@
 </a>
 
 <!-- Facebook Messenger Direct Chat -->
-<a href="https://m.me/YOUR_FACEBOOK_USERNAME" 
+<a href="https://m.me/Loyal.Wew" 
    target="_blank" 
    rel="noopener noreferrer" 
    class="glass-card link-button">
