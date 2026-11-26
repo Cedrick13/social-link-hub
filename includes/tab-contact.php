@@ -35,16 +35,14 @@
     <i class="fas fa-chevron-right" style="font-size: 12px; color: #94a3b8;"></i>
 </a>
 
-<!-- Telegram Direct Chat -->
-<a href="https://t.me/YOUR_TELEGRAM_USERNAME" 
-   target="_blank" 
-   rel="noopener noreferrer" 
+<!-- Viber Direct Chat -->
+<a href="viber://chat?number=%2B639079735537" 
    class="glass-card link-button">
     <div class="link-content">
-        <i class="fa-brands fa-telegram" style="font-size: 20px; color: #26A5E4;"></i>
+        <i class="fa-brands fa-viber" style="font-size: 20px; color: #7360F2;"></i>
         <div class="link-text">
-            <h3>Message on Telegram</h3>
-            <span>Fast direct message on Telegram</span>
+            <h3>Message on Viber</h3>
+            <span>Direct chat via Viber app</span>
         </div>
     </div>
     <i class="fas fa-chevron-right" style="font-size: 12px; color: #94a3b8;"></i>
