@@ -45,10 +45,7 @@ if (file_exists($faviconPath)) {
 
     <!-- Contact View Tab -->
     <section id="view-contact" class="tab-view">
-        <div class="profile-header">
-            <h1>Get in Touch</h1>
-            <p>Send a message or collaboration request.</p>
-        </div>
+        <?php include __DIR__ . '/../includes/tab-contact.php'; ?>
     </section>
 
     <?php include __DIR__ . '/../includes/bottom-nav.php'; ?>
