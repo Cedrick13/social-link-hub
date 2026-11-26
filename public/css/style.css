@@ -70,6 +70,25 @@ body {
     padding: 3px;
     background: linear-gradient(135deg, #00ff87, #60efff);
     box-shadow: 0 0 20px rgba(0,255,135,0.3);
+    position: relative; /* Crucial for anchoring the badge */
+}
+
+.verified-badge {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #0b0f19; /* Cuts out a clean dark ring around the icon */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verified-badge i {
+    color: #38bdf8; /* Verified sky-blue color */
+    font-size: 16px;
 }
 
 .avatar-wrapper img {

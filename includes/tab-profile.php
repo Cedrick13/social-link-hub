@@ -14,6 +14,9 @@ if (file_exists($avatarFullPath)) {
         <?php else: ?>
             <img src="<?= $basePath ?>/<?= $avatarRelPath ?>" alt="Profile Picture">
         <?php endif; ?>
+        <span class="verified-badge" title="Verified">
+            <i class="fa-solid fa-circle-check"></i>
+        </span>
     </div>
     <h1><?= htmlspecialchars($data['name']) ?></h1>
     <p><?= htmlspecialchars($data['tagline']) ?></p>
