@@ -33,11 +33,11 @@ return [
             'color' => '#000000'
         ],
         [
-            'platform' => 'Telegram',
-            'subtitle' => 'Telegram Chat',
-            'url' => 'https://t.me/',
-            'icon' => 'fa-brands fa-telegram',
-            'color' => '#26A5E4'
+            'platform' => 'reddit',
+            'subtitle' => 'Communities & Discussions',
+            'url' => 'https://www.reddit.com/user/Hot_Active_5876',
+            'icon' => 'fa-brands fa-reddit',
+            'color' => '#FF4500'
         ],
         [
             'platform' => 'Threads',
