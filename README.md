@@ -116,11 +116,6 @@ This project includes a `vercel.json` configuration file for deployment on Verce
 4. Configure the project according to the included PHP runtime configuration.
 5. Deploy your project.
 
-## 📸 Preview
-
-<!-- Add your project screenshot here -->
-
-![Social Link Hub Preview](public/images/preview.png)
 
 ## 👨‍💻 Author
 
