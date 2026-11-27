@@ -11,4 +11,4 @@
 </a>
 <?php endforeach; ?>
 
-<div class="theme-footer">© 2026 Ced. All rights reserved</div>
+<div class="theme-footer">&copy; <?= date('Y') ?> Ced. All rights reserved</div>
